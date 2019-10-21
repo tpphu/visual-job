@@ -1,33 +1,20 @@
-# whitewalker
-A API service boilerplate
+# Visual Job
 
-Build status: ![Build status](https://travis-ci.com/tpphu/whitewalker.svg?branch=master)
+A Job base on Worker Pooling model
 
 ## Todo
 
-- [x] Use Go Modules
-- [x] Config .env for environment
-- [x] Start http
-- [x] Migrate database
-- [x] Seed database
-- [x] Design IoC
-- [ ] Validation/Universal Translation
-- [ ] Design authentication
-- [ ] Design middlewares
-- [ ] Caching/Redis
-
-## Next2
-
-- [ ] Build an Router/Controller/Model/Mock gereration
-- [ ] Auto inject router/controller, with interface inject argument
-
-## CI with Travis
-
-- https://arslan.io/2018/08/26/using-go-modules-with-vendor-support-on-travis-ci/
-- https://dave.cheney.net/2018/07/16/using-go-modules-with-travis-ci
-  
+- [] Design Worker Pooling model architect
+- [] Design task with some triggers: retry, cancel
 
 ## References
 
-- http://www.alangpierce.com/blog/2016/03/17/adventures-in-go-accessing-unexported-functions/
-- https://blog.gopheracademy.com/advent-2018/interfaces-and-reflect/
+- http://nesv.github.io/golang/2014/02/25/worker-queues-in-go.html
+- http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/
+- https://golangbot.com/buffered-channels-worker-pools/
+- https://medium.com/coinmonks/visually-understanding-worker-pool-48a83b7fc1f5
+- https://geeks.uniplaces.com/building-a-worker-pool-in-golang-1e6c0fdfd78c
+
+## Credits
+
+- This project base on `whitewalker`
